@@ -92,4 +92,3 @@ src/
 - Lucide React (Icons)
 
 ---
-Dibuat dengan ❤️ oleh [Nama Kamu]
