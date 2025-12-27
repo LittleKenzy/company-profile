@@ -1,16 +1,95 @@
-# React + Vite
+# Company Profile Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website company profile modern dan responsif yang dibangun menggunakan **React** dan **Vite**. Project ini didesain mobile-first dengan fitur-fitur seperti sticky navbar, smooth scrolling, dan grid layout yang adaptif.
 
-Currently, two official plugins are available:
+## Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ **Vite + React**: Performa cepat dan ringan.
+- 📱 **Mobile-First Design**: Tampilan optimal di semua ukuran layar.
+- 🍔 **Hamburger Menu**: Navigasi responsif untuk mobile.
+- 🎨 **Modern UI**: Menggunakan CSS Modules dan Lucide Icons.
+- 📍 **Smooth Scroll**: Navigasi antar section yang halus.
 
-## React Compiler
+## Prasyarat
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sebelum memulai, pastikan laptop/PC kamu sudah terinstall:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (Versi 18 atau lebih baru disarankan)
+- [Git](https://git-scm.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Cara Menjalankan Project (Step-by-Step)
+
+Ikuti langkah-langkah berikut untuk menjalankan project ini di komputer lokal kamu:
+
+### 1. Clone Repository
+
+Buka terminal atau command prompt, lalu jalankan perintah berikut untuk mendownload project:
+
+```bash
+git clone https://github.com/username/company-profile.git
+```
+*(Ganti URL di atas dengan URL repository GitHub kamu jika sudah di-push)*
+
+Jika belum ada repository remote, kamu bisa langsung masuk ke folder project jika sudah memilikinya secara lokal.
+
+### 2. Masuk ke Direktori Project
+
+Pindah ke folder project yang baru saja di-clone:
+
+```bash
+cd company-profile
+```
+
+### 3. Install Dependencies
+
+Install semua library yang dibutuhkan menggunakan npm:
+
+```bash
+npm install
+```
+
+### 4. Jalankan Development Server
+
+Mulai server lokal untuk melihat website:
+
+```bash
+npm run dev
+```
+
+Setelah perintah ini dijalankan, terminal akan menampilkan alamat lokal, biasanya:
+`http://localhost:5173/`
+
+Buka link tersebut di browser (Chrome, Edge, Firefox, dll).
+
+## Perintah Lainnya
+
+- **Build untuk Production**:
+  ```bash
+  npm run build
+  ```
+  Perintah ini akan membuat folder `dist` yang siap untuk di-deploy ke hosting.
+
+- **Preview Hasil Build**:
+  ```bash
+  npm run preview
+  ```
+
+## Struktur Project
+
+```
+src/
+├── components/     # Komponen React (Navbar, Hero, dll)
+├── App.jsx         # Layout utama
+├── index.css       # Global styles & variabel CSS
+└── main.jsx        # Entry point aplikasi
+```
+
+## Teknologi yang Digunakan
+
+- React JS
+- Vite
+- CSS Modules
+- Lucide React (Icons)
+
+---
+Dibuat dengan ❤️ oleh [Nama Kamu]
